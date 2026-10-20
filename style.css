@@ -1319,7 +1319,7 @@ footer {
 /* Canvas, readable borders, typographic initials and music. */
 :root {
     --sans: 'Comic Sans MS','Comic Sans','Comic Neue',cursive;
-    --canvas: url('assets/canvas-texture.png')
+    --canvas: url('../assets/canvas-texture.png')
 }
 
 body {
