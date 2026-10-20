@@ -109,7 +109,7 @@ img {
     position: absolute;
     inset: 12px;
     pointer-events: none;
-    background: url('assets/doodle-border.png') center/100% 100% no-repeat;
+    background: url('../assets/doodle-border.png') center/100% 100% no-repeat;
     opacity: .8
 }
 
