@@ -109,7 +109,7 @@ img {
     position: absolute;
     inset: 12px;
     pointer-events: none;
-    background: url('../assets/doodle-border.png') center/100% 100% no-repeat;
+    background: url('./assets/doodle-border.png') center/100% 100% no-repeat;
     opacity: .8
 }
 
@@ -227,7 +227,7 @@ img {
 
 .floral {
     position: relative;
-    background-image: url('../assets/doodle-border.png');
+    background-image: url('./assets/doodle-border.png');
     background-size: 100% 100%;
     background-repeat: no-repeat
 }
@@ -1343,7 +1343,7 @@ body {
 }
 
 .floral {
-    background-image: url('../assets/doodle-border.png'),var(--canvas);
+    background-image: url('./assets/doodle-border.png'),var(--canvas);
     background-size: 100% 100%,440px 440px;
     background-repeat: no-repeat,repeat;
     background-blend-mode: normal,multiply
@@ -1357,7 +1357,7 @@ body {
 }
 
 .section.floral {
-    background-image: url('../assets/doodle-border.png'),var(--canvas);
+    background-image: url('./assets/doodle-border.png'),var(--canvas);
     background-size: 100% 100%,440px 440px;
     background-repeat: no-repeat,repeat;
     background-blend-mode: normal,multiply;
@@ -1675,7 +1675,7 @@ body,.invitation-shell,.cover,.couple,.event,.closing {
 
 .floral,.section.floral {
     background-color: #fffaf2;
-    background-image: url('../assets/doodle-border.png'),linear-gradient(#fffaf2b8,#fffaf2b8),url('assets/canvas-texture.png');
+    background-image: url('./assets/doodle-border.png'),linear-gradient(#fffaf2b8,#fffaf2b8),url('assets/canvas-texture.png');
     background-size: 100% 100%,auto,440px 440px;
     background-repeat: no-repeat,repeat,repeat;
     background-blend-mode: normal
